@@ -1,27 +1,32 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
-contract Dapps{
-    uint storedData = 21;
-    string firstName = "opa pay";
+contract Dapps {
+    uint storedData = 20;
+    string firstName = "Opa pay";
     bool isActive = true;
 
-    function set(){
-        // statement 
-    }
-    
-    function get(){
-        // statement 
+    function set() {
+        // statement block
     }
 
-    
-    function set(uint x){
-   storage = x;
-   
+    function get() {
+        // statement block
     }
 
+    function store() {
 
-function set(string){
-    string =" welcome here"
+        uint storage;
+
+        function set(uint x) public{
+            storage = x;
+        }
+
+        function get() public view return(uint){ 
+            return storage
+        }
+
+
+    }
 }
-}
+
