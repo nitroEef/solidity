@@ -15,7 +15,10 @@ contract Dapps{
     }
 
     
-    function store(){
-   uint storage
+    function set(uint x){
+   storage = x
+   
     }
 }
+
+function set
