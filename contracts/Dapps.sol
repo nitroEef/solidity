@@ -16,9 +16,12 @@ contract Dapps{
 
     
     function set(uint x){
-   storage = x
+   storage = x;
    
     }
-}
 
-function set
+
+function set(string){
+    string =" welcome here"
+}
+}
